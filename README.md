@@ -46,6 +46,8 @@ Green - Data required from user/database (this is not dependent on any other fac
 
 ## Milk Production Graph
 
+Sheet: `Pendaftaran ternakan` and `Data pemakanan baru`
+
 <img width="1543" height="516" alt="image" src="https://github.com/user-attachments/assets/7308c912-dcf5-4ffa-8a20-35bd556d96af" />
 
 For each livestock in a group, we need to calculate the ratio (nisbah pengeluaran).
