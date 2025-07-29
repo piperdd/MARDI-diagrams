@@ -44,3 +44,18 @@ Green - Data required from user/database (this is not dependent on any other fac
 
 [Edit this diagram](https://app.diagrams.net/?url=https://raw.githubusercontent.com/piperdd/MARDI-diagrams/main/nutrient-requirements.drawio.svg)
 
+## Milk Production Graph
+
+<img width="1543" height="516" alt="image" src="https://github.com/user-attachments/assets/7308c912-dcf5-4ffa-8a20-35bd556d96af" />
+
+For each livestock in a group, we need to calculate the ratio (nisbah pengeluaran).
+The formula for the ratio is `Milk Yield / Value of Model at current day of milking`
+
+For example:
+
+A livestock produces 10kg of milk on the 50th day of milking, the value of the model at the 50th day is 22.4kg.
+So the ratio is 10/22.4 = 0.446
+
+Once we get all ratios of each livestock in group, calculate the average.The average will then be used for the value of 'r' in the graph above.
+
+[Experiment with graph](https://www.desmos.com/calculator/beaxlxqrc0)
