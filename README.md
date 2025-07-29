@@ -59,3 +59,8 @@ So the ratio is 10/22.4 = 0.446
 Once we get all ratios of each livestock in group, calculate the average.The average will then be used for the value of 'r' in the graph above.
 
 [Experiment with graph](https://www.desmos.com/calculator/beaxlxqrc0)
+
+## Parameter untuk prestasi ladang
+
+![Untitled](https://github.com/user-attachments/assets/f540a666-056b-43ad-8228-95538aa5cbcb)
+
