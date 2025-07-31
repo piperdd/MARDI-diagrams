@@ -2,11 +2,16 @@
 for storing draw.io files
 
 # Latest Documents
-- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Heifer)v6`
-- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Calf)v6`
-- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Steer)v6`
-- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusuv11.11.2024 (v3)`
-- `Model penggunaan sistem DSSv3`
+- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Heifer)v6.xlsm`
+    - For Lembu Heifer
+- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Calf)v6.xlsm`
+    - For Lembu Anak
+- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusu(Steer)v6.xlsm`
+    - For Lembu Pejantan
+- `Model perumusan pemakanan dan simulasi pengeluaran lembu tenusuv11.11.2024 (v3).xlsm`
+    - For Lembu Menyusu/Tidak Menyusu
+- `Model penggunaan sistem DSSv3.pptx`
+    - Slides
 
 # Groups of cattle
 - Lembu Anak
