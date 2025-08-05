@@ -49,6 +49,11 @@ Green - Data required from user/database (this is not dependent on any other fac
 
 [Edit this diagram](https://app.diagrams.net/?url=https://raw.githubusercontent.com/piperdd/MARDI-diagrams/main/nutrient-requirements.drawio.svg)
 
+## Distributing feed amount
+![Feed Amount Diagram](./feed-amount.drawio.svg)
+
+[Edit this diagram](https://app.diagrams.net/?url=https://raw.githubusercontent.com/piperdd/MARDI-diagrams/main/feed-amount.drawio.svg)
+
 ## Milk Production Graph
 
 Sheet: `Pendaftaran ternakan` and `Data pemakanan baru`
