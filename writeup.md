@@ -13,6 +13,16 @@ Dengan dokumen ini, dua-dua pihak boleh lebih faham formulasi apa yang digunakan
     - Digunakan untuk formulasi Lembu Menyusu/Tidak Menyusu
 - `Model penggunaan sistem DSSv3.pptx`
     - Rumusan Sistem
+- `Calcium.xlsx`
+    - Highlighted parameters for Calcium Requirements
+- `Pemakanan bahan kering(Dry matter intake).xlsx`
+    - Highlighted parameters for DMI
+- `Phosphorus.xlsx`
+    - Highlighted parameters for Phosphorus
+- `Protin.xlsx`
+    - Highlighted parameters for CP
+- `Tenaga Metabolisma.xlsx`
+    - Highlighted parameters for ME
  
 # Perbezaan antara dokumen
 Kami mendapati bahawa dokumen untuk Heifer, Anak, dan Pejantan dibuat dengan template yang sama. Oleh itu, tiga dokumen ini tiada banyak perbezaan.
