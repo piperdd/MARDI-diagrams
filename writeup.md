@@ -54,8 +54,7 @@ Terdapat juga perbezaan dalam pengiraan "Maintenance Ca" antara kumpulan Menyusu
 
 ## Total CP:
 - Menyusu/Tidak Menyusu - bergantung kepada "Body Weight", "Anggaran Pengeluaran Susu", dan "Milk fat (%)"
-- Heifer - bergantung kepada "Body Weight" dan "Predicted ADG"
-- Anak/Pejantan - bergantung kepada "Body Weight" sahaja
+- Heifer/Anak/Pejantan - bergantung kepada "Body Weight" dan "Predicted ADG"
 
 
 
