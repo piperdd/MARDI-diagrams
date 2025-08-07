@@ -12,6 +12,8 @@ for storing draw.io files
     - For Lembu Menyusu/Tidak Menyusu
 - `Model penggunaan sistem DSSv3.pptx`
     - Slides
+- `Model susu dan growth rate.xlsx`
+    - Sample model for milk yield and body weight
 - `Calcium.xlsx`
     - Highlighted parameters for Calcium Requirements
 - `Pemakanan bahan kering(Dry matter intake).xlsx`
@@ -64,25 +66,62 @@ Green - Data required from user/database (this is not dependent on any other fac
 
 [Edit this diagram](https://app.diagrams.net/?url=https://raw.githubusercontent.com/piperdd/MARDI-diagrams/main/feed-amount.drawio.svg)
 
+# JF Model and Gompertz Model
+## Purpose
+Body Weight and Milk Yield readings are not taken every day. So, we use these models to estimate body weight/milk yield values for the days that readings are not taken.
+
 ## Milk Production Graph
 
-Sheet: `Pendaftaran ternakan` and `Data pemakanan baru`
+File: `Model susu dan growth rate.xlsx`
+
+JF Model (row 12 in `original/edited susu sheet`:
+<img width="1024" height="96" alt="image" src="https://github.com/user-attachments/assets/4ffee44d-5d6a-46c7-a2c6-40b460070e4d" />
 
 <img width="1543" height="516" alt="image" src="https://github.com/user-attachments/assets/7308c912-dcf5-4ffa-8a20-35bd556d96af" />
 
-For each livestock in a group, we need to calculate the ratio (nisbah pengeluaran).
-The formula for the ratio is `Milk Yield / Value of Model at current day of milking`
+During Daily Input Data when we measure the milk yield, we need to calculate the ratio (nisbah pengeluaran).
+The formula for the ratio is `Milk Yield / Value of JF Model at current day of milking`
 
 For example:
 
 A livestock produces 10kg of milk on the 50th day of milking, the value of the model at the 50th day is 22.4kg.
 So the ratio is 10/22.4 = 0.446
 
-Once we get all ratios of each livestock in group, calculate the average.The average will then be used for the value of 'r' in the graph above.
+We store this ratio alongside the milk yield input data:
+| Days in Milking | Milk Yield (kg) | Ratio |
+|---|---|---|
+| 50 | 10 | 0.446 |
+| 100 | 9 | 0.430 |
+| ... | ... | ... |
+
+From this, we calculate the average ratio. The average ratio will be used to get the adjusted graph.
+
+## Obtaining value from adjusted graph
+use formula:
+estimated milk yield = average ratio * JF(current day in milking)
+
+Example: 
+
+We want to find the estimated milk yield for the 150th day.
+
+The average ratio is (0.446+0.430)/2 = 0.438
+
+The JF value for that day is JF(150) = 18.92
+
+So, the estimated milk yield for 150th day = 0.438*18.92 = 8.287
 
 [Experiment with graph](https://www.desmos.com/calculator/beaxlxqrc0)
 
-## Parameter untuk prestasi ladang
+## Body Weight Graph
+The same procedure is done for estimating body weight.
+
+Gompertz Model:
+<img width="959" height="96" alt="image" src="https://github.com/user-attachments/assets/1945ae6c-b553-4a2b-a165-93935e97c5bb" />
+<img width="996" height="104" alt="image" src="https://github.com/user-attachments/assets/17d4fad1-4d0b-4960-bd11-dc72a9b19c49" />
+
+
+
+# Parameter untuk prestasi ladang
 
 ![Untitled](https://github.com/user-attachments/assets/f540a666-056b-43ad-8228-95538aa5cbcb)
 
