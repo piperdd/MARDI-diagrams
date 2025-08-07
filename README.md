@@ -40,6 +40,16 @@ for storing draw.io files
     - Lembu yang sudah berhenti menyusu.
     - Perlu mengandung semula untuk mengeluarkan susu.
 
+# Flow of system
+ 1. Calculate nutrient requirements for cattle. We need Calcium (C), Phosphorus (P), Dry Matter Intake (DMI), Crude Protein (CP), Metabolizable Energy (ME). These are calculated from cattle data.
+     - Sheets: `NRC 2001-2016 req`
+ 2. Determine the distribution for each ingredient using the least cost solver to get the formulation. 
+     - Sheets: `Least Cost`
+ 3. Determine how much formulation to give each cattle.
+    - This is calculated by `total forage required` and `total concentrate required` in the second diagram.
+    - Sum up total weight for each forage and concentrate required.
+    - Sheets: `Rumusan pemberian makanan tepat`, `Slot 1`.
+
 # Least Cost Formulation
 ## Information Required
 - Ingredient nutrient values (ME, CP, Ca, P) (In `Feed database` sheet)
@@ -65,6 +75,7 @@ Green - Data required from user/database (this is not dependent on any other fac
 ![Feed Amount Diagram](./feed-amount.drawio.svg)
 
 [Edit this diagram](https://app.diagrams.net/?url=https://raw.githubusercontent.com/piperdd/MARDI-diagrams/main/feed-amount.drawio.svg)
+
 
 # JF Model and Gompertz Model
 ## Purpose
