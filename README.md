@@ -12,6 +12,16 @@ for storing draw.io files
     - For Lembu Menyusu/Tidak Menyusu
 - `Model penggunaan sistem DSSv3.pptx`
     - Slides
+- `Calcium.xlsx`
+    - Highlighted parameters for Calcium Requirements
+- `Pemakanan bahan kering(Dry matter intake).xlsx`
+    - Highlighted parameters for DMI
+- `Phosphorus.xlsx`
+    - Highlighted parameters for Phosphorus
+- `Protin.xlsx`
+    - Highlighted parameters for CP
+- `Tenaga Metabolisma.xlsx`
+    - Highlighted parameters for ME
 
 # Groups of cattle
 - Lembu Anak
