@@ -136,3 +136,44 @@ Gompertz Model:
 
 ![Untitled](https://github.com/user-attachments/assets/f540a666-056b-43ad-8228-95538aa5cbcb)
 
+## Parameters required
+
+- Calving dates (setiap tarikh beranak)
+- Conception dates (setiap tarikh mula mengandung)
+    - Needs information whether Artificial Insemnation (AI) or Natural Breeding (to keep track of parent/breed) 
+    - Needs information whether conception is successful or not (used by Days Open)
+- Service dates (setiap tarikh insemination)
+    - need to keep track date of first service (for AFS, CFSI)
+    - first service means the first service after birthing a calf, not the first service in it's lifetime. So a cow can have multiple first services.
+
+## Individual vs Group Data (Need confirmation)
+
+Individual:
+- CI
+- DO
+- S/C
+- AFS
+- AFC
+- CFSI
+- Abortion Rate
+- Stillbirth Rate
+
+Group:
+- CR
+- HDR
+- PR
+- NRR
+- FSCR
+
+Unsure:
+- VWP - not sure if VWP is defined individually or for whole group
+
+## Further Information
+
+- Returning to estrus - if cow is inseminated but no conception, it will show signs of estrus (heat) again. If it doesnt return to estrus, it might mean that it has successfully conceived.
+- Service - act of inseminating a cow.
+- Service =/= Conception. Services can be successful/non successful. Successful service leads to conception.
+- Abortion - calf aborted before expected birth date
+- Stillbirth - calf is not alive during expected birth date
+
+
