@@ -152,7 +152,8 @@ Gompertz Model:
     - Cows Inseminated - Is it total insemination sessions for whole group or individual? For whole lifetime or since last calving date?
     - Cows eligible - How to know if a cow is eligible?
     - Cows not returning to estrus - What is the process for determining?
-Need to figure out how does the farmer input these data. Ask to clarify each formula.
+
+Need to figure out the process on how the farmer input these data. Ask to clarify each formula.
 
 ## Individual vs Group Data (Need confirmation)
 
